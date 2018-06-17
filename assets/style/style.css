@@ -60,6 +60,7 @@ body {
     /* padding-top: 2vw !important; */
     padding: 5vw;
     line-height: 24px;
+    /* -webkit-animation-duration: 90s; */
 }
 
 .separator {
@@ -119,6 +120,16 @@ body {
   padding-left: 10px;
 }
 
+.work-place-link {
+  text-decoration: none;
+  color: white;
+}
+
+.work-place-link:hover {
+    transition: .2s;
+    opacity: 0.5;
+}
+
 .work-title {
   font-size: 14px;
   font-weight: 600;
@@ -133,6 +144,12 @@ body {
   line-height: 34px;
   max-width: 440px;
   font-size: 14px;
+}
+
+.work-link-cta {
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 500px;
 }
 
 .work-link {
@@ -180,6 +197,23 @@ div.icons {
     transition: .2s;
     opacity: 1;
 }
+
+.advice {
+  opacity: 0.7;
+  font-size: 12px;
+  max-width: 400px;
+}
+
+/* Experiments */
+/* .transgrow {
+    -webkit-transition: width 1s ease-out;
+    transition: width 1s  ease-out;
+    width:0px;
+}
+
+.grow{
+    width: 100%;
+} */
 
 @media (max-width: 634px) {
   .separator-line {

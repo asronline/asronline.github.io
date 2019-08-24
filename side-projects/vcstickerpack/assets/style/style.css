@@ -1,0 +1,144 @@
+/** FONTS **/
+/** Ultra Light */
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, "BlinkMacSystemFont", "San Francisco", sans-serif;
+  /* background-color: #000;
+  color: white; */
+  -webkit-font-smoothing: antialiased;
+  /* padding-top: 2vw !important; */
+  line-height: 24px;
+  /* -webkit-animation-duration: 90s; */
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  height: 100vh;
+}
+
+.left {
+  background-color: #6236ff;
+  display: flex;
+}
+
+.right {
+  display: flex;
+}
+
+.right-container {
+  padding: 5vw;
+  max-width: 768px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.5em;
+  line-height: 70px;
+}
+
+h2 {
+  margin-top: -20px;
+  font-size: 1.5em;
+  color: #BFCCD6;
+}
+
+special {
+  color: #6236ff;
+}
+
+img {
+  width: 80px;
+  box-shadow: 0 1px 0 0 rgba(29, 38, 58, 0.05), 0 3px 10px 0 rgba(29, 38, 58, 0.1);
+  border-radius: 16px;
+}
+
+video {
+  width: 250px;
+  border: 0.7em solid #000;
+  background-color: #000;
+  border-radius: 1.75em;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+a {
+  color: #BFCCD6;
+  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #6236ff
+}
+
+footer {
+  font-size: 14px;
+  color: #BFCCD6;
+  margin-top: 50px;
+}
+
+.apple {
+  margin-top: 40px;
+  display: flex;
+  background-size: 100% auto;
+  background-image: url("download_appstore_2.svg");
+  width: 157px;
+  height: 53px;
+}
+
+@media screen and (max-width: 634px) {
+  .row {
+    display: inline;
+  }
+}
+}

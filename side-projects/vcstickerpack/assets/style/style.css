@@ -64,7 +64,7 @@ body {
 
 .column {
   flex: 50%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .left {
@@ -79,6 +79,7 @@ body {
 .right-container {
   padding-top: 40px;
   padding-left: 40px;
+  padding-right: 40px;
   max-width: 768px;
   margin: auto;
 }
@@ -90,7 +91,7 @@ h1 {
 
 h2 {
   margin-top: -20px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #BFCCD6;
 }
 
@@ -125,7 +126,15 @@ a:hover {
 footer {
   font-size: 14px;
   color: #BFCCD6;
-  margin-top: 50px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.thanks {
+  margin-top: 30px;
+  font-size: 12px;
+  max-width: 600px;
+  padding-bottom: 0px;
 }
 
 .apple {
